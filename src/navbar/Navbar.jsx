@@ -51,7 +51,7 @@ const Navbar =()=>{
         <li>  <Link to="/talent" onClick={toggleMenu}>Talents</Link> </li>
         <li> <Link to="/contact" onClick={toggleMenu}>Contact</Link> </li>
      </nav>
-     <Button variant="outline-light" className='button'>Join Us</Button>
+     <Link to="/contact"><Button variant="outline-light" className='button'>Join Us</Button></Link>
      
     </div>
    

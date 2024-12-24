@@ -42,7 +42,7 @@ const Home =()=>{
            <p> Making youngsters leverage their <br /> skills, abilities, and talents stand <br /> out as a goal-getter. </p>
            <div className="home-buttons">
                 <div style={{ display: 'flex', alignItems: 'center' }}>
-                  <Button variant="light" className='button2'>Join Us</Button>
+                  <Button variant="light" onClick={()=>(window.location.href = "/about")} className='button2'>Join Us</Button>
                   <PlayCircleIcon style={{ fontSize: 30, color: 'white' }} />
                   <p style={{ margin: '0 0 0 10px' }}>How it works</p>
                 </div>

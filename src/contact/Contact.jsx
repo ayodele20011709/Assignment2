@@ -1,7 +1,9 @@
 import './Contact.css'
 import map_image from '../assets/Mapsicle Map.png'
+
 import React, { useState } from "react";
 import {Link} from 'react-router-dom'
+import About from '../about/About';
 const Contact =()=>{
   const [formData, setFormData] = useState({
     firstName: "",
@@ -37,6 +39,10 @@ const Contact =()=>{
     console.log(`Subscribed with email: ${subscriptionEmail}`);
     setSubscriptionEmail(''); 
   };
+
+  const handleClick = ()=>{
+    window.location.href = "/about"
+  }
   
 
   return (
@@ -46,7 +52,7 @@ const Contact =()=>{
             <div className='contact-content'>
               <h1>You've got vital info for us?</h1>
               <p>Do well and reach out to us</p>
-              <button type="submit" className='submit-button'>Contact Us</button>
+              <button type="submit" onClick={handleClick} className='submit-button'>Contact Us</button>
             </div>
         </div>
         <div className='box-container'>
@@ -124,7 +130,7 @@ const Contact =()=>{
                </div>
              </div>
 
-            <button type="submit" className="submit-btn">Send Message</button>
+            <button type="submit"  className="submit-btn">Send Message</button>
           </form>
          </div>
        </div>
