@@ -1,0 +1,143 @@
+.event-content {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 200px;
+    margin-bottom: 250px;
+    color: rgb(206, 13, 58);
+}
+.event-content h1{
+  font-size: 100;
+}
+.event-content p{
+  font-size: 100;
+}
+
+
+.part6{
+    text-align: center;
+    background-color:  rgb(238, 238, 238);
+    font-family: 'Poppins', sans-serif; 
+   }
+   .part6 h1{
+     padding-top: 50px;
+   }
+   .part6 p{
+    font-size: 15px;
+   }
+  
+  .forms{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 40px;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  input:hover{
+    border-color:  rgb(32, 100, 159);
+  }
+  
+  .home{
+    padding: 10px;
+    background-color: rgb(32, 100, 159);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .talent-part{
+    background-color: rgb(25, 25, 50);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+    font-family: 'Poppins', sans-serif; 
+  
+  }
+  
+  .pp{
+    color: white;
+    padding-left: 390px;
+    padding-top: 70px;
+  }
+  .pp h5{
+    font-size: 15px;
+  }
+  .ourfooters{
+   
+    display: flex;
+    gap: 30px;
+    padding-right: 200px;
+    padding-left: 80px;
+    text-align: left;
+  
+    padding-bottom: 60px;
+    padding-top: 50px;
+    font-size: 13px;
+    color: white;
+  }
+  
+  .ourfooter{
+    list-style: none;
+    padding-top: 50px;
+    padding-left: 120px;
+  }
+  .ourfooters h3{
+    font-size: 20px;
+  }
+  
+  .ourfooters li a{
+    text-decoration: none;
+    color: white;
+    column-gap: 50px;
+  }
+  
+
+  
+
+
+@media (max-width: 767px) {
+  .event-content {
+    margin-top: 100px; 
+    margin-bottom: 100px; 
+    padding: 0 20px; 
+    color: rgb(206, 13, 58);
+  }
+
+  .event-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .event-content p {
+    font-size: 1rem; 
+  }
+
+  .part6 {
+    padding: 20px;
+  }
+
+  .forms {
+    width: 100%; 
+    flex-direction: column; 
+    gap: 15px; 
+    padding-left: 30px;
+  }
+
+  input {
+    width: 100%; 
+    padding: 12px; 
+  }
+
+  .home {
+    width: 100%; 
+    padding: 12px; 
+  }
+
+  
+}

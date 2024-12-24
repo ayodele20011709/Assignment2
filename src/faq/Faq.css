@@ -1,0 +1,244 @@
+.faq-container{
+    background-image: url(../assets/aboutpage2.jpg);
+    display:flex;
+    position: relative; 
+    width: 100%;
+    height: 102vh;
+    background-size: cover; 
+    background-position: bottom center;
+    background-repeat: no-repeat; 
+    text-align: center;
+  }
+  
+
+  .faq-content {
+    position: absolute; 
+    margin-top: 80px;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 200px;
+  }
+  
+  
+  .faq-content h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  
+  }
+  .search-form {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+ 
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white;
+  }
+  .search-input::placeholder {
+    color: white;
+  }
+  
+  .title{
+  color:  rgb(32, 100, 159);
+  }
+  .textt{
+    font-size: 15px;
+  }
+
+.card-1{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.card-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.card-details{
+  width: 350px;
+  background-color: rgb(220, 229, 237);
+  padding: 20px;
+}
+.card-details h4{
+  color:  rgb(32, 100, 159);
+}
+.question{
+  color:  rgb(32, 100, 159);
+  padding-top: 200px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.centered-accordion {
+   background-color: rgb(220, 229, 237);
+  padding: 20px;
+  margin: 0 auto; 
+  margin-top: 200px; 
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  
+}
+.header-color{
+  color:  rgb(32, 100, 159);
+}
+.looking-for{
+  color:  rgb(32, 100, 159);
+  padding-top: 400px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif; 
+}
+.looking-for p{
+  color: black;
+  font-size: 25px;
+}
+.faq-part6{
+  text-align: center;
+  background-color:  rgb(238, 238, 238);
+  font-family: 'Poppins', sans-serif; 
+  
+ }
+ .faq-part6 h1{
+   padding-top: 50px;
+ }
+ .faq-part6 p{
+  font-size: 15px;
+ }
+ .forms{
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 40px;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+input:hover{
+  border-color:  rgb(32, 100, 159);
+}
+ .faq-home{
+  padding: 10px;
+  background-color: rgb(32, 100, 159);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+  .faq-container {
+    padding: 110px;
+    text-align: center;
+    height: 50vh;
+    background-position: top center;
+    padding-top: 70px;
+  }
+
+  .faq-content {
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .faq-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .search-form {
+    max-width: 100%;
+    padding: 5px;
+  }
+
+  .search-input {
+    font-size: 14px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .card-1 {
+    margin-top: 40px;
+    padding-left: 70px;
+  }
+
+  .card-section {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0.9fr));
+    gap: 10px;
+  }
+
+  .card-details {
+    width: 100%; 
+    padding: 15px;
+  }
+
+  .question {
+    font-size: 18px;
+    padding-top: 70px;
+  }
+
+  .centered-container {
+    height: auto;
+    padding: 10px;
+    padding-left: 30px;
+  }
+
+  .centered-accordion {
+    width: 100%;
+  }
+
+  .looking-for {
+    padding-top: 60px;
+    font-size: 16px;
+  }
+
+  .looking-for p {
+    font-size: 14px;
+  }
+
+  .faq-part6 h1 {
+    font-size: 18px;
+  }
+
+  .forms {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .faq-home {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  
+}

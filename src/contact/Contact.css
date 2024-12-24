@@ -1,0 +1,370 @@
+.contact-container{
+    background-image: url(../assets/aboutpage2.jpg);
+    display:flex;
+    position: relative; 
+    width: 100%;
+    height: 105vh; 
+    
+    background-size: cover; 
+    background-position: bottom center;
+    background-repeat: no-repeat; 
+    text-align: center;
+    
+  
+  }
+  .contact-content {
+    position: absolute; 
+    margin-top: 80px;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    padding-left: 350px;
+   
+    padding-top: 200px;
+  }
+  
+  
+  .contact-content h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  
+  }
+  
+  .contact-content p {
+    font-size: 1.25rem;
+    font-weight: 200;
+  }
+  button {
+    padding: 10px;
+    background-color: white;
+    color:  rgb(32, 100, 159);
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+  }
+  .box-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  .contact-left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    margin-top: 60px;
+  }
+  .phone{
+    background-color: rgb(220, 229, 237);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+  .phone h3{
+    font-size: 20px;
+    color:  rgb(32, 100, 159);
+  }
+  .email{
+    background-color: rgb(220, 229, 237);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+  .email h3{
+    font-size: 20px;
+    color:  rgb(32, 100, 159);
+  }
+  .office{
+    background-color: rgb(220, 229, 237);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+  .office h3{
+    font-size: 20px;
+    color:  rgb(32, 100, 159);
+  }
+
+  .right-section {
+  
+    flex-direction: column;
+    text-align: left;
+    
+    align-items: center;
+    gap: 10px;
+    margin-top: 90px;
+    font-family: 'Poppins', sans-serif; 
+  }
+
+.form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:  rgb(220, 229, 237);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .form-container h2{
+    color:  rgb(32, 100, 159);
+  }
+  .form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-row:first-of-type .form-group {
+    flex: 1;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  input#firstName::placeholder {
+    color:  rgb(32, 100, 159);
+  }
+  input#lastName::placeholder {
+    color:  rgb(32, 100, 159);
+  }
+  input#email::placeholder {
+    color:  rgb(32, 100, 159);
+  }
+  textarea#message::placeholder {
+    color:  rgb(32, 100, 159);
+  }
+  input,
+  textarea {
+    padding: 0.75rem;
+    border: 1px solid  rgb(32, 100, 159);
+    font-size: 1rem;
+    background-color: rgb(220, 229, 237);
+    
+  }
+  textarea {
+    width: 100%;
+    max-width: 600px; 
+    resize: none;
+    height: auto;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color:  rgb(32, 100, 159);
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+  }
+  
+ 
+  .submit-btn {
+    background-color:  rgb(32, 100, 159);
+    color: white;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    padding-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: rgb(32, 100, 159);
+  }
+  .map{
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    padding-top: 50px;
+  }
+  .map h1{
+    font-size: 30px;
+  }
+  .map p{
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  img{
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+  .part6{
+    text-align: center;
+    background-color:  rgb(238, 238, 238);
+    font-family: 'Poppins', sans-serif; 
+   }
+   .part6 h1{
+     padding-top: 50px;
+   }
+   .part6 p{
+    font-size: 15px;
+   }
+   .contact-part{
+    background-color: rgb(25, 25, 50);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    font-family: 'Poppins', sans-serif; 
+  
+  }
+  
+  .pp{
+    color: white;
+    padding-left: 390px;
+    padding-top: 70px;
+  }
+  .pp h5{
+    font-size: 15px;
+  }
+  .ourfooters{
+   
+    display: flex;
+    gap: 30px;
+    padding-right: 200px;
+    padding-left: 80px;
+    text-align: left;
+  
+    padding-bottom: 60px;
+    padding-top: 50px;
+    font-size: 13px;
+    color: white;
+  }
+  
+  .ourfooter{
+    list-style: none;
+    padding-top: 50px;
+    padding-left: 120px;
+  }
+  .ourfooters h3{
+    font-size: 20px;
+  }
+  
+  .ourfooters li a{
+    text-decoration: none;
+    color: white;
+    column-gap: 50px;
+  }
+
+  
+  .writing-container {
+    background-color: aliceblue;
+    padding-bottom: 50px;
+    padding-top: 50px;   
+    padding-left: 400px; 
+    line-height: 2.0;
+  }
+  
+  .writing-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color:  rgb(32, 100, 159);
+    
+    
+  }
+  
+  .writing-container p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .writing-container .introduction,
+  .writing-container .vision,
+  .writing-container .mission {
+    margin-bottom: 40px; 
+  }
+
+  
+@media screen and (max-width: 768px) {
+  
+  .contact-container {
+     
+    padding: 20px; 
+    text-align: center;
+    height: 50vh;
+    background-position: top center;
+    padding-top: 70px; 
+  }
+
+  .contact-content {
+    margin: 0 auto;
+    padding: 70px;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .contact-content h1 {
+    font-size: 2rem; 
+  }
+
+  .contact-content p {
+    font-size: 1rem; 
+  }
+
+  .box-container {
+    flex-direction: column; 
+    gap: 20px;
+    padding-left: 50px;
+  }
+
+  .contact-left-section,
+  .contact-right-section {
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  .form-container {
+    padding: 1rem; 
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .form-row {
+    flex-direction: column; 
+    gap: 0.5rem;
+  }
+
+  textarea {
+    max-width: 100%; 
+  }
+
+  .map {
+    padding: 20px;
+
+  }
+
+  .map img {
+    width: 100%; 
+    max-width: 100%; 
+    padding-left: 45px;
+  }
+
+  .part6 {
+    padding: 20px;
+  }
+
+  
+
+  .writing-container {
+    padding: 20px;
+    line-height: 1.5;
+    padding-left: 60px;
+    padding-top: 20px;
+  }
+
+  .writing-container h1 {
+    font-size: 1.5rem; 
+  }
+
+  .writing-container p {
+    font-size: 0.9rem; 
+  }
+}
