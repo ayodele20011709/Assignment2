@@ -3,20 +3,17 @@
     justify-content: space-between; 
     align-items: center; 
     padding: 20px 30px;
-    position: relative; 
     background: url(../assets/homepageone.png);
     background-size: cover;
     background-position: left top;
     width: 100%;
     padding: 1rem;        
-    color: white;                 
-    top: 0;
-    box-shadow: none; 
+    color: white;               
     background-repeat: no-repeat;
     transition: background-color 0.3s ease; 
 }
 
-
+/* 
 .navbar-about {
   background-image: linear-gradient(rgba(111, 19, 50, 0.5), rgb(23, 20, 64)), 
   url('../assets/homepageone.png');
@@ -47,7 +44,7 @@
   background-image: linear-gradient(rgba(111, 19, 50, 0.5), rgba(23, 20, 64)), 
   url('../assets/homepageone.png');
   color: white;
-}
+} */
 
   .logo {
     display: flex;
@@ -62,7 +59,7 @@
     color: white;
 }
 .gold{
-    font-size: 25px;
+  font-size: 25px;
    color: rgb(235, 181, 47);
 }
 .red{

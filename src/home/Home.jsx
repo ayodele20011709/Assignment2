@@ -4,7 +4,6 @@ import gallery_image from '../assets/Gallery Scroll.jpg'
 import blog2_image from '../assets/blog2.png'
 import column_image from '../assets/Columns.png'
 import vector_image from '../assets/Vector 1.png'
-import Button from 'react-bootstrap/Button';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import PersonIcon from '@mui/icons-material/Person';
 import EventIcon from '@mui/icons-material/Event';
@@ -12,8 +11,8 @@ import GradingIcon from '@mui/icons-material/Grading';
 import HowToVoteIcon from '@mui/icons-material/HowToVote';
 import {Link} from 'react-router-dom'
 import AssignmentIcon from '@mui/icons-material/Assignment';
-
 import React, { useState } from 'react';
+
 
 
 const Home =()=>{
@@ -35,21 +34,25 @@ const Home =()=>{
 
   return (
     <>
+
    <div>
+    
     <main className='image-container'>
         <div className="home-content">
-           <h1>Impacting <br /> Lives of Young <br /> People in Africa.</h1>
-           <p> Making youngsters leverage their <br /> skills, abilities, and talents stand <br /> out as a goal-getter. </p>
+           <h1>Impacting Lives of Young People in Africa.</h1>
+           <p> Making youngsters leverage their  skills, abilities, and talents stand out as a goal-getter. </p>
            <div className="home-buttons">
-                <div style={{ display: 'flex', alignItems: 'center' }}>
-                  <Button variant="light" onClick={()=>(window.location.href = "/about")} className='button2'>Join Us</Button>
-                  <PlayCircleIcon style={{ fontSize: 30, color: 'white' }} />
-                  <p style={{ margin: '0 0 0 10px' }}>How it works</p>
+                <div>
+                  <button variant="light" onClick={()=>(window.location.href = "/about")} className='button2'>Join Us</button>
+                  <div>
+                    <PlayCircleIcon style={{ fontSize: 30, color: 'white' }} />
+                    How it works
+                  </div>
                 </div>
            </div>
          </div>
     </main>
-    <section className='home-page2'>
+    <section className='home-page2'>  
         <div className='part2' >
            <h1>How it works</h1>
            <p>Lorem ipsum dolor sit amet consectetur. Sit curabitur nulla justo <br />
@@ -84,12 +87,10 @@ const Home =()=>{
            <p style={{ margin: '0 0 0 10px', color:'gray' }}>Get the Highest Vote</p>
          </div>
         </div>
-
        
-      
        <div className="right-section">
          <GradingIcon style={{ fontSize: 40, color: 'black' }} />
-         <h3>Submit Requirements</h3>
+         <h5>Submit Requirements</h5>
          <p>
           Lorem ipsum dolor sit amet consectetur. Sit <br /> curabitur nulla justo
           tellus amet. Ut placerat <br /> dolor massa metus quisque sodales semper. <br /> Hac
@@ -115,8 +116,8 @@ const Home =()=>{
       <div className='part5'>
           <h1>Our Blog</h1>
           <p>Lorem ipsum dolor sit amet consectetur. <br/> Sit curabitur nulla justo tellus amet.</p>
-          <img src={vector_image} alt="image" width={150} style={{ marginTop: '-50px' }}  /> <br/>
-          <img src={blog2_image} alt="our blog" width={1000} style={{ marginTop: '-100px' }} />
+          <img src={vector_image} alt="image" width={150}  /> <br/>
+          <img src={blog2_image} alt="our blog" width={1000} />
       </div>
       <article className='part6'>
           <h1>Subscribe to our Newsletter</h1>
@@ -140,7 +141,11 @@ const Home =()=>{
        </article>
      <footer className='final-part'>
       <div class="ourfooters">
-       <div className='logo'> <h3 className='white'>The</h3> <h2 className='gold'>Next Gen</h2> <h1 className='red'>SHOW</h1> </div>
+       <div className='logo'>
+         <span className='white'>The</span> 
+         <span className='gold'>Next Gen</span> 
+         <span className='red'>SHOW</span> 
+       </div>
          <div class="ourfooter">
            <h3>COMPANY</h3>
            <li><Link to='/about'>How it works</Link></li> 
