@@ -1,29 +1,15 @@
 import './Navbar.css'
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Navbar =()=>{
-  const location = useLocation(); 
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
-  const getNavbarStyle = () => {
-    switch (location.pathname) {
-      case '/about':
-        return 'navbar navbar-about';
-      case '/event':
-        return 'navbar navbar-event';
-      case '/talent':
-        return 'navbar navbar-talent';
-      case '/contact':
-        return 'navbar navbar-contact';
-      default:
-        return 'navbar navbar-default'; 
-    }
-  };
-
+  
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -32,12 +18,12 @@ const Navbar =()=>{
     <>
      
     
-     <div className={getNavbarStyle()}>
+     <div className="navbar">
 
         <div className="logo">
-          <h3 className="white">The</h3>
-          <h2 className="gold">Next Gen</h2>
-          <h1 className="red">SHOW</h1>
+          <span className="white">The</span>
+          <span className="gold">Next Gen</span>
+          <span className="red">SHOW</span>
         </div>
         
         <button className="hamburger" onClick={toggleMenu}>
@@ -51,7 +37,9 @@ const Navbar =()=>{
         <li>  <Link to="/talent" onClick={toggleMenu}>Talents</Link> </li>
         <li> <Link to="/contact" onClick={toggleMenu}>Contact</Link> </li>
      </nav>
-     <Link to="/contact"><Button variant="outline-light" className='button'>Join Us</Button></Link>
+      <Link to="/contact">
+        <Button variant="outline-light" className='button'>Join Us</Button>
+      </Link>
      
     </div>
    

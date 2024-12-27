@@ -1,29 +1,27 @@
 .image-container {
-  display:flex;
-  position: relative; 
   width: 100%;
-  height: 128vh; 
+  height: auto; 
   background-image: url(../assets/homepageone.png); 
   background-size: cover; 
   background-position: bottom center;
   background-repeat: no-repeat; 
-  padding-left: 47px;
-  
-  
+  padding-left: 47px; 
 }
 
 .home-content {
-  position: absolute; 
-  margin-top: 80px;
   color: white;
   font-family: 'Poppins', sans-serif; 
- 
-  padding-top: 100px;
-  text-align: left;
-  
-  
+  text-align: left; 
+  padding: 200px 0 300px  0; 
+
+}
+.home-content h1{
+  width: 400px; 
 }
 
+.home-content p{
+  width: 360px; 
+}
 
 .home-content h1 {
   font-size: 3rem;
@@ -35,9 +33,18 @@
   font-size: 1.25rem;
   font-weight: 200;
 }
+.home-buttons div{
+  display: flex;
+}
+.home-buttons div div{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 
 .button2{
-  padding: 20px 30px;
+      padding: 10px 20px;
+      border-radius: 10px;
       font-size: 16px;
       color: black;
       
@@ -51,61 +58,37 @@
 .home-page2{
   background-color: rgb(238, 238, 238);
   padding: 20px;           
-  text-align: center;      
-  min-height: 200px;  
+         
 }
 .part2{
+  
   margin-top: 65px;
   margin-bottom: 80px;
+  text-align: center;
 }
 .container {
   display: flex;
   justify-content: center;
   gap: 40px;
-  padding: 20px;
+
   
 }
 .left-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
   border-right: 1px solid black;
-  flex: 1; 
-  max-width: 50%;
   padding-left: 250px;
-}
-
-
-.left-section {
-  display: flex;
-  flex-direction: column;
   gap: 38px;
 }
 
-
-
-.right-section {
-  
-  flex-direction: column;
-  padding-right: 200px;
-  text-align: left;
-  
-  align-items: center;
-  gap: 10px;
-  margin-top: 90px;
-  font-family: 'Poppins', sans-serif; 
-}
-
 .right-section h3 {
-  margin: 0;
-  font-size: 20px;
   font-weight: bold;
-  color: black;
 }
 
 .right-section p {
-  margin: 10px 0 0;
-  font-size: 14px;
-  color:black;
+  font-size: 0.8rem;
 }
  .part3{
   text-align: center;
@@ -211,9 +194,14 @@ input:hover{
 .pp h5{
   font-size: 15px;
 }
+.logo{
+  display: flex;
+  align-items: center;
+}
 .ourfooters{
  
   display: flex;
+  align-items: center;
   gap: 30px;
   padding-right: 200px;
   padding-left: 80px;
@@ -445,4 +433,33 @@ input:hover{
  
 
   
+}
+
+@media (max-width: 480px) {
+  .image-container{
+    height: 600px;
+    }
+    .home-content h1{
+      width: 300px;
+      margin-bottom: 20px;
+    }
+    .home-content p{
+      width: 300px;
+    }
+    .home-buttons{
+      display: flex;
+      justify-content: left;
+    }
+    .part2 h1{
+      text-align: center;
+    }
+    .part2{
+      text-align: left;
+    }
+    .container{
+      gap: 30px;
+    }
+    .part5 img{
+      width: 300px;
+    }
 }
